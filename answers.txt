@@ -1,0 +1,14 @@
+sort1 uses: bubble sort
+
+How do you know?: The time significantly improved after running the program through the pre-sorted sorted50000.txt file.
+Bubble sort is the only sorting method where its lowerbound is different than its upperbound.
+
+sort2 uses: merge sort
+
+How do you know?: I ran this file through random50000.txt and this sorting program outperformed the others.
+When running this file through sorted50000.txt the time didn't improve which furthers my claims due to merge sort having the same upperbound and lowerbound.
+
+sort3 uses: selection sort
+
+How do you know?: Running this file through the sorted numbers vs random similar results were found.
+This file also takes more time than sort2 (merge sort) which means it is either bubble sort or selection sort.
